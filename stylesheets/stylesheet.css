@@ -291,10 +291,12 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  background-image:url('../images/header.jpg');
 }
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+  min-height: 600px;
 }
 
 #project_title {
@@ -363,11 +365,18 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  min-height: 300px;
+  background-image: url('../images/footer.png');
 }
 
-
-
+#get_in_touch {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 60px 160px;
+  background-image: url('../images/icons/comments.png');
+  background-position: 340px 60px;
+  background-repeat: no-repeat;
+}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/

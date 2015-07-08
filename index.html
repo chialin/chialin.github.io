@@ -1,73 +1,440 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Chialin.github.io : " />
+<head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="chialin shih">
 
-    <title>Chialin.github.io</title>
-  </head>
+    <title>Chialin Shih</title>
 
-  <body>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/chialin">View on GitHub</a>
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
-          <h1 id="project_title">Chialin Shih</h1>
-          <h2 id="project_tagline"></h2>
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-        </header>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Chialin Shih</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experience">Experience</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">  
+                <div class="intro-heading">I'm a web developer</div>
+                <a href="#experience" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">ABOUT ME</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">BASIC INFO</h4>
+                    <p class="text-muted">I enjoy improving project better and better, just like I was refactored report system and improved git release flow in mydlink. I am also focus on front end, learning new framework or skills. For example, angularjs, Backbone, requirejs, gulp...</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">EDUCATION</h4>
+                    <p class="text-muted">I graduated with master of CSIE (Computer Science & Information Engineering) of National Chiayi University in 2008.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Open Source Community</h4>
+                    <p class="text-muted">I attend WoFoss (WoFoss, Women in Free and Open Source Software in Taiwan) since 2010, hope can help women learn or feel free in Tech.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-mydlink" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/mydlink-preview.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>www.mydlink.com</h4>
+                        <p class="text-muted">Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-popo" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/popo-preview.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>popo.tw / qidian.com.tw</h4>
+                        <p class="text-muted">Website</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-bifrost" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/bifrost-preview.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Bifrost 物資管理系統</h4>
+                        <p class="text-muted">Website</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Work Experience</h2>
+                    <h3 class="section-subheading text-muted">4 years experience in web development, and 3 years in windows application development</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/work/mydlink.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">D-Link</h4>
+                                    <h4>Jul. 2012 - Jul. 2015</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Project:<br/>
+                                        Please check portfolio section <a href="#portfolio-mydlink" data-toggle="modal">mydlink</a>
+                                    </p>
+                                    <br/>
+                                    <div>Skill: PHP, Symphony, HTML, CSS, jquery, Backbone, requirejs, jasmine, git</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/work/qisda.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Qisda</h4>
+                                    <h4>Apr. 2010 - Apr. 2012</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Developed windows tools for product test and verification.<br/>
+                                    Project:<br/>
+                                    1. Developed tool to verify Radio Interface Layer (RIL) middleware on WINCE.<br/>
+                                    2. Integrated download tool of MTK on qisda 2G module for automation production.<br/>
+                                    3. Integrated wireless calibration tool on Wi-Fi/BT module for factory verification.</p>
+                                    <br/>
+                                    <div>Skill: MFC</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/work/popo.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Popo 原創</h4>
+                                    <h4>Sep. 2009 – Apr. 2010</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Project:<br/>
+                                        1. Please check portfolio section <a href="#portfolio-popo" data-toggle="modal">Popo 原創</a><br/>
+                                        2. Please check portfolio section <a href="#portfolio-popo" data-toggle="modal">起點中文網台灣分站</a><br/>
+                                        <br/>
+                                    </p>
+                                    <div>Skill: ROR, HTML, jquery, CSS, git</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/work/dq2.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Aug. 2008 – Aug. 2009</h4>
+                                    <h4 class="subheading">SYSTEX</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                    Developed DQ2 stock windows applications, maintained and improved performance of stock transaction view.</p>
+                                    <br/>
+                                    <div>Skill: MFC</div>
+                                </div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light-gray">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; chialin 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/chialinshih"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="http://facebook.com/chialin"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://tw.linkedin.com/in/chialin"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li><a href="https://github.com/chialin"><i class="fa fa-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>Theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolio-mydlink" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>mydlink</h2>
+                            <p class="item-intro text-muted">
+                                <a href="https://www.mydlink.com" target="_blank">www.mydlink.com</a>
+                            </p>
+                            <p>mydlink is a web service in D-link, user can access devices of D-link throught internet anytime. It provides Zero Configuration mechanism makes it easy to set up your D-Link Camera and NAS. So you can keep an eye on your kids, your pets at home. mydlink.com also supports router and NVR.
+                            </p>
+                            <p class="left">
+                                <strong>Responsibilities</strong>:
+                                <ul class="left">
+                                    <li>I was NAS and NVR owner, maintained and developed new feature.</li>
+                                    <li>Developed mydlink product, FAQ page and generate advertisement data from server using python.</li>
+                                    <li>Maintained internal systems include shipping system and report system.</li>
+                                    <li>Redesigned report system to improve data mismatch issue from server.</li>
+                                    <li>Improved git repository structure to make release process faster and easier.</li>
+                                </ul>
+                                <div class="left"><strong>Skill</strong>: PHP, Symphony, HTML, CSS, jquery, Backbone, requirejs, jasmine, git</div>
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolio-popo" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Popo / qidian</h2>
+                            <p class="item-intro text-muted">
+                                <a href="http://www.popo.tw" target="_blank">www.popo.tw</a> / 
+                                <a href="http://www.qidian.com.tw" target="_blank">www.qidian.com.tw</a>
+                            </p>
+                            <p>Popo is a website that provide a platform for writer or reader. User can write their novel on Popo without any publisher, user also can subscribe any books or articles you like on Popo. qidian is a reading website that is a Taiwan branch of <a href="http://www.qidian.com" target="_blank">www.qidian.com</a>.</p>
+                            <p class="left">
+                                <strong>Responsibilities</strong>:
+                                <ul class="left">
+                                    <li>Developed book page and subscribe flow.</li>
+                                    <li>Developed internal Content Management System for editor.</li>
+                                </ul>
+                                <div class="left"><strong>Skill</strong>: ROR, HTML, CSS, jquery, git</div>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer>
-        <div id="get_in_touch">Get in touch</div>
-      </footer>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolio-bifrost" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Bifrost 物資管理系統</h2>
+                            <p class="item-intro text-muted">
+                                <a href="https://github.com/bifrostio/bifrost" target="_blank">GitHub</a>
+                            </p>
+                            <p>Bifrost is a open source project. It is a provision management system to help people know status of provision clearly. This can prevent too many provisions will be send to the same place.</p>
+                            <p>You can check this introduce page of Bifrost 物資管理系統 <a href="https://bifrostio.github.io" target="_blank">bifrostio.github.io</a>.</p>
+                            <p class="left">
+                                <strong>Responsibilities</strong>:
+                                <ul class="left">
+                                    <li>Developed login and project page.</li>
+                                    <li>Parsed CAP data form https://alerts.ncdr.nat.gov.tw to show information on Leaflet map.</li>
+                                </ul>
+                                <div class="left"><strong>Skill</strong>: angularjs, HTML, CSS, Material design, git</div>
+
+                            </p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-  </body>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
 </html>
